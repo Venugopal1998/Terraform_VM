@@ -1,2 +1,2 @@
 # Terraform_VM
-Creation of VM using Terraform
+VM creation using terraform
