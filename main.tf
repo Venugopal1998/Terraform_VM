@@ -28,6 +28,7 @@ type  = var.disk_type
 size  = var.disk_size
 }
 }
+
 network_interface {
 network = google_compute_network.terraform-test-vpc.id // specify vpc
 subnetwork = google_compute_subnetwork.terraform-test-subnet.id // specify subnet
